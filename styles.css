@@ -1,0 +1,57 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  font-family: "Arial";
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 20px;
+  width: 700px;
+  height: 230px;
+}
+
+#success {
+  border-radius: 5px;
+  background: #d4eddb;
+  color: #215d36;
+  padding: 20px;
+  width: 650px;
+  height: 180px;
+}
+
+input[type="email"] {
+  /* -webkit-transition: all 0.3s ease-in-out; */
+  /* -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; */
+  font-size: 16px;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #dddddd;
+}
+
+input[type="email"]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  /* padding: 10px; */
+  /* text-align: center; */
+  font-size: 16px;
+  margin: 6px -2px;
+  padding: 10px;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #5ad15e;
+  border: 2px solid #5ad15e;
+}
+
+.button:active {
+  box-shadow: 0 0 5px #5ad15e;
+  border: 2px solid #5ad15e;
+}
